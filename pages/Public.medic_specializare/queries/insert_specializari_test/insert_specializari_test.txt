@@ -1,0 +1,17 @@
+INSERT INTO medic_specializare (medic_id, specializare_id) VALUES
+(12, 1),   -- Dan Petre - Cardiologie
+(12, 5),   -- Dan Petre - Ortopedie
+(13, 3),   -- Irina Constantin - Neurologie
+(13, 6),   -- Irina Constantin - Psihiatrie
+(14, 2),   -- Mihai Ciobanu - Dermatologie
+(14, 10),  -- Mihai Ciobanu - Gastroenterologie
+(15, 4),   -- Laura Moldovan - Pediatrie
+(15, 11),  -- Laura Moldovan - Ginecologie
+(16, 1),   -- Florin Vidan - Cardiologie
+(16, 9),   -- Florin Vidan - Oftalmologie
+(16, 8),   -- Florin Vidan - Endocrinologie
+(17, 7),   -- Anita Voinea - Chirurgie
+(17, 12),  -- Anita Voinea - Radioterapie
+(17, 13),  -- Anita Voinea - Oncologie
+(13, 14),  -- Irina Constantin - Hematologie
+(14, 15);  -- Mihai Ciobanu - Urologie

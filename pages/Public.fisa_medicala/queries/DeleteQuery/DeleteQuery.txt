@@ -1,0 +1,2 @@
+DELETE FROM public."fisa_medicala"
+  WHERE "id_fisa" = {{data_table.triggeredRow.id_fisa}};

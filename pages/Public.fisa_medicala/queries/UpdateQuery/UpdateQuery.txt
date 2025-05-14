@@ -1,0 +1,7 @@
+UPDATE public."fisa_medicala" SET
+		"istoric" = '{{update_form.fieldState.istoric.isVisible ? update_form.formData.istoric : update_form.sourceData.istoric}}',
+		"id_programare" = '{{update_form.fieldState.id_programare.isVisible ? update_form.formData.id_programare : update_form.sourceData.id_programare}}',
+    "simptome" = '{{update_form.fieldState.simptome.isVisible ? update_form.formData.simptome : update_form.sourceData.simptome}}',
+		"diagnostic" = '{{update_form.fieldState.diagnostic.isVisible ? update_form.formData.diagnostic : update_form.sourceData.diagnostic}}',
+		"recomandari" = '{{update_form.fieldState.recomandari.isVisible ? update_form.formData.recomandari : update_form.sourceData.recomandari}}'
+WHERE "id_fisa" = {{data_table.selectedRow.id_fisa}};

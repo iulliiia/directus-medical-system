@@ -1,0 +1,13 @@
+SELECT 
+  p.id,
+  p.data,
+  p.ora,
+  p.status,
+  u_pacient.first_name || ' ' || u_pacient.last_name AS pacient
+FROM programare p
+JOIN users u_pacient ON u_pacient.id = p.pacient_id
+WHERE 
+  p.medic_id = (SELECT id FROM users WHERE email = '{{ appsmith.store.user_email }}')
+  AND p.status = 'in asteptare'
+ORDER BY p.data DESC, p.ora DESC;
+-- arata doar programarile care sunt in status 'in asteptare'

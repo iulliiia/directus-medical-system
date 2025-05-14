@@ -1,0 +1,38 @@
+{
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 88,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "refresh",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "true",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 55,
+  "onClick": "{{query_utilizatori_pacienti.run();\nquery_utilizatori_admini.run();\nquery_utilizatori_receptionist.run();\nquery_utilizatori_medici.run();}}",
+  "originalBottomRow": 88,
+  "originalTopRow": 84,
+  "parentColumnSpace": 12.0703125,
+  "parentId": "xz46wglq3g",
+  "parentRowSpace": 10,
+  "rightColumn": 57,
+  "topRow": 84,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "cbsu8jb3ie",
+  "widgetName": "refresh_btn"
+}

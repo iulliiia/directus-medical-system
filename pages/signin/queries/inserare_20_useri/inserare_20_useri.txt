@@ -1,0 +1,35 @@
+--  10 PACIENȚI
+INSERT INTO users (username, email, password, role, first_name, last_name, birth_date, phone_number)
+VALUES
+('ion.popescu', 'ion.popescu@email.com', 'parola123', 'pacient', 'Ion', 'Popescu', '1990-05-15', '0712345671'),
+('maria.ionescu', 'maria.ionescu@email.com', 'parola123', 'pacient', 'Maria', 'Ionescu', '1988-09-20', '0723345672'),
+('andrei.vasilescu', 'andrei.vasilescu@email.com', 'parola123', 'pacient', 'Andrei', 'Vasilescu', '1995-12-01', '0734345673'),
+('elena.dumitru', 'elena.dumitru@email.com', 'parola123', 'pacient', 'Elena', 'Dumitru', '1993-02-11', '0745345674'),
+('george.stan', 'george.stan@email.com', 'parola123', 'pacient', 'George', 'Stan', '1987-08-30', '0756345675'),
+('adina.popa', 'adina.popa@email.com', 'parola123', 'pacient', 'Adina', 'Popa', '1991-06-18', '0767345676'),
+('calin.matei', 'calin.matei@email.com', 'parola123', 'pacient', 'Călin', 'Matei', '1989-10-12', '0778345677'),
+('roxana.nistor', 'roxana.nistor@email.com', 'parola123', 'pacient', 'Roxana', 'Nistor', '1994-03-25', '0789345678'),
+('dragos.ilie', 'dragos.ilie@email.com', 'parola123', 'pacient', 'Dragoș', 'Ilie', '1992-11-07', '0790345679'),
+('bianca.dinu', 'bianca.dinu@email.com', 'parola123', 'pacient', 'Bianca', 'Dinu', '1996-07-09', '0701345680');
+
+-- 6 MEDICI
+INSERT INTO users (username, email, password, role, first_name, last_name, phone_number, university)
+VALUES
+('dan.petre', 'dan.petre@email.com', 'parola123', 'medic', 'Dan', 'Petre', '0711456781', 'UMF Cluj'),
+('irina.constantin', 'irina.constantin@email.com', 'parola123', 'medic', 'Irina', 'Constantin', '0722456782', 'UMF București'),
+('mihai.ciobanu', 'mihai.ciobanu@email.com', 'parola123', 'medic', 'Mihai', 'Ciobanu', '0733456783', 'UMF Iași'),
+('laura.moldovan', 'laura.moldovan@email.com', 'parola123', 'medic', 'Laura', 'Moldovan', '0744456784', 'UMF Timișoara'),
+('florin.vidan', 'florin.vidan@email.com', 'parola123', 'medic', 'Florin', 'Vidan', '0755456785', 'UMF Târgu Mureș'),
+('anita.voinea', 'anita.voinea@email.com', 'parola123', 'medic', 'Anita', 'Voinea', '0766456786', 'UMF Craiova');
+
+--  3 RECEPȚIONIȘTI
+INSERT INTO users (username, email, password, role, first_name, last_name, phone_number)
+VALUES
+('diana.badea', 'diana.badea@email.com', 'parola123', 'receptionist', 'Diana', 'Badea', '0777456787'),
+('rares.ionesi', 'rares.ionesi@email.com', 'parola123', 'receptionist', 'Răzvan', 'Ionesi', '0788456788'),
+('miruna.oprea', 'miruna.oprea@email.com', 'parola123', 'receptionist', 'Miruna', 'Oprea', '0799456789');
+
+--  1 ADMINISTRATOR
+INSERT INTO users (username, email, password, role, first_name, last_name, phone_number)
+VALUES
+('admin.clinica', 'admin@email.com', 'admin123', 'administrator', 'Alexandru', 'Mihalache', '0700456790');

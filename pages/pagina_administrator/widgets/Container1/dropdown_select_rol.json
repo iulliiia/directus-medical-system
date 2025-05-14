@@ -1,0 +1,61 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 86,
+  "boxShadow": "none",
+  "defaultOptionValue": "{ \"label\": \"Pacienți\", \"value\": \"pacient\" }",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "gxymfg6dvf",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelText": "Alege rolul",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "4",
+  "leftColumn": 23,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 82,
+  "mobileLeftColumn": 22,
+  "mobileRightColumn": 42,
+  "mobileTopRow": 75,
+  "needsErrorInfo": false,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 86,
+  "originalTopRow": 81,
+  "parentColumnSpace": 21.8125,
+  "parentId": "xz46wglq3g",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 40,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  { \"label\": \"Pacienți\", \"value\": \"pacient\" },\n  { \"label\": \"Medici\", \"value\": \"medic\" },\n  { \"label\": \"Recepționiști\", \"value\": \"receptionist\" },\n  { \"label\": \"Administratori\", \"value\": \"administrator\" }\n]\n",
+  "topRow": 81,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "psyeo5emix",
+  "widgetName": "dropdown_select_rol"
+}

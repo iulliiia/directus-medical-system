@@ -1,0 +1,5 @@
+SELECT DISTINCT u.id, u.first_name || ' ' || u.last_name AS nume
+FROM users u
+JOIN medic_specializare ms ON ms.medic_id = u.id
+WHERE u.role = 'medic'
+  AND ms.specializare_id = {{ Adauga_programare.formData.specializare }};

@@ -1,0 +1,3 @@
+SELECT id, first_name || ' ' || last_name AS nume
+FROM users
+WHERE role = 'pacient';

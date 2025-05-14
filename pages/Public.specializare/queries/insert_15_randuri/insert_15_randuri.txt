@@ -1,0 +1,2 @@
+INSERT INTO specializare (denumire) VALUES
+('Cardiologie'),('Dermatologie'),('Neurologie'),('Pediatrie'),('Ortopedie'),('Psihiatrie'),('Chirurgie'),('Endocrinologie'),('Oftalmologie'),('Gastroenterologie'),('Ginecologie'),('Radioterapie'),('Oncologie'),('Hematologie'),('Urologie');

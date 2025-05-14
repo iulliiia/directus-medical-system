@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67e39fa4353a9a52f83d02a7_a0d3b241-29c3-432a-b6e7-88baa3cfb20e",
+  "id": "signin_create_new",
+  "unpublishedCollection": {
+    "name": "create_new",
+    "pageId": "signin",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

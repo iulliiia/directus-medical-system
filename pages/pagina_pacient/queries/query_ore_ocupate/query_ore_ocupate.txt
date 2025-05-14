@@ -1,0 +1,4 @@
+SELECT ora 
+FROM programare
+WHERE medic_id = {{ Form_Add_Programare.formData.medic }}
+  AND data = '{{ Form_Add_Programare.formData.data }}';

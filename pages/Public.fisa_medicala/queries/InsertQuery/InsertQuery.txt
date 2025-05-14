@@ -1,0 +1,16 @@
+INSERT INTO fisa_medicala (programare_id, istoric, simptome, diagnostic, recomandari) VALUES
+(1, 'Pacientă cu istoric de alergii sezoniere.', 'Strănut, ochi iritați', 'Rinită alergică', 'Antihistaminice și evitarea alergenilor.'),
+(2, 'Fără afecțiuni medicale anterioare.', 'Tuse uscată', 'Infecție respiratorie ușoară', 'Odihnă și hidratare.'),
+(3, 'Istoric de migrene recurente.', 'Durere de cap, greață', 'Migrenă', 'Analgezice și evitarea declanșatorilor.'),
+(4, 'Fumat timp de 10 ani.', 'Respirație grea, oboseală', 'Bronșită cronică', 'Tratament bronhodilatator.'),
+(5, 'Fără boli cronice cunoscute.', 'Dureri abdominale', 'Gastrită', 'Regim alimentar și medicamente antiacide.'),
+(6, 'Istoric familial de diabet.', 'Sete excesivă, oboseală', 'Prediabet', 'Reglarea alimentației și activitate fizică.'),
+(7, 'Tensiune arterială crescută ocazional.', 'Amețeli, palpitații', 'Hipertensiune arterială', 'Monitorizare și tratament.'),
+(8, 'Altele.', 'Durere lombară', 'Lombalgie', 'Exerciții de stretching și fizioterapie.'),
+(9, 'Istoric de entorse repetate.', 'Durere la genunchi', 'Entorsă', 'Imobilizare și antiinflamatoare.'),
+(10, 'Fără intervenții chirurgicale.', 'Durere toracică', 'Nevralgie intercostală', 'Tratament antiinflamator.'),
+(11, 'Istoric de otite în copilărie.', 'Durere de ureche', 'Otită medie', 'Antibiotic și calmante.'),
+(12, 'Anxietate diagnosticată anterior.', 'Insomnie, neliniște', 'Tulburare de anxietate', 'Terapie cognitiv-comportamentală.'),
+(13, 'Sedentarism.', 'Dureri musculare', 'Lipsă de tonus muscular', 'Exerciții regulate și stretching.'),
+(14, 'Istoric de gripă sezonieră.', 'Febră, dureri în gât', 'Gripă', 'Odihnă, hidratare, antitermice.'),
+(15, 'Răceli frecvente.', 'Congestie nazală, tuse', 'Răceală comună', 'Ceaiuri, vitamine, odihnă.');

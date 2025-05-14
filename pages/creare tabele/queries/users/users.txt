@@ -1,0 +1,18 @@
+
+
+	CREATE TYPE role_name AS ENUM ('pacient', 'medic', 'receptionist', 'administrator');
+
+	CREATE TABLE users (
+		id SERIAL PRIMARY KEY,
+		username VARCHAR(50) UNIQUE,
+		email VARCHAR(100) UNIQUE,
+		password VARCHAR(100),
+		role role_name NOT NULL,
+		first_name VARCHAR(50),
+		last_name VARCHAR(100),
+		birth_date DATE,
+		phone_number VARCHAR(50),
+		university VARCHAR(300), -- doar pentru medici
+		review FLOAT CHECK (review BETWEEN 1 AND 5) -- doar pentru medici
+	);
+

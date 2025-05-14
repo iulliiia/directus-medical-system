@@ -1,0 +1,15 @@
+UPDATE programare SET ora = '09:00' WHERE id = 1;
+UPDATE programare SET ora = '10:30' WHERE id = 2;
+UPDATE programare SET ora = '14:00' WHERE id = 3;
+UPDATE programare SET ora = '11:00' WHERE id = 4;
+UPDATE programare SET ora = '13:30' WHERE id = 5;
+UPDATE programare SET ora = '15:00' WHERE id = 6;
+UPDATE programare SET ora = '09:30' WHERE id = 7;
+UPDATE programare SET ora = '10:00' WHERE id = 8;
+UPDATE programare SET ora = '12:00' WHERE id = 9;
+UPDATE programare SET ora = '08:30' WHERE id = 10;
+UPDATE programare SET ora = '11:15' WHERE id = 11;
+UPDATE programare SET ora = '09:45' WHERE id = 12;
+UPDATE programare SET ora = '14:30' WHERE id = 13;
+UPDATE programare SET ora = '10:15' WHERE id = 14;
+UPDATE programare SET ora = '13:00' WHERE id = 15;

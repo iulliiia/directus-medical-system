@@ -1,0 +1,3 @@
+SELECT id, denumire
+FROM specializare
+ORDER BY denumire;

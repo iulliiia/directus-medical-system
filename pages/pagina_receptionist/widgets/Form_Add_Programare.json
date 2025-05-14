@@ -1,0 +1,401 @@
+{
+  "animateLoading": true,
+  "autoGenerateForm": false,
+  "backgroundColor": "#dbeafe",
+  "borderColor": "#fff",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "0",
+  "bottomRow": 66,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "childStylesheet": {
+    "ARRAY": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "CHECKBOX": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+    },
+    "CURRENCY_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "DATEPICKER": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "EMAIL_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTILINE_TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTISELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "OBJECT": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "PASSWORD_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "PHONE_NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "RADIO_GROUP": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "SELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "SWITCH": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    }
+  },
+  "disabledWhenInvalid": true,
+  "displayName": "JSON Form",
+  "dynamicBindingPathList": [
+    {
+      "key": "schema.__root_schema__.defaultValue"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.cellBorderRadius"
+    },
+    {
+      "key": "resetButtonStyles.borderRadius"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "submitButtonStyles.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.pacient.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.pacient.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.medic.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.medic.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.data.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.data.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.ora.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.ora.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.status.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.status.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.pacient.options"
+    },
+    {
+      "key": "schema.__root_schema__.children.medic.options"
+    },
+    {
+      "key": "schema.__root_schema__.children.data.minDate"
+    },
+    {
+      "key": "schema.__root_schema__.children.data.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.medic.isDisabled"
+    },
+    {
+      "key": "schema.__root_schema__.children.ora.options"
+    },
+    {
+      "key": "schema.__root_schema__.children.status.options"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "schema.__root_schema__.children.data.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.data.maxDate"
+    },
+    {
+      "key": "schema.__root_schema__.children.data.minDate"
+    },
+    {
+      "key": "schema.__root_schema__.children.data.isRequired"
+    },
+    {
+      "key": "schema.__root_schema__.children.medic.isDisabled"
+    },
+    {
+      "key": "schema.__root_schema__.children.pacient.onOptionChange"
+    },
+    {
+      "key": "schema.__root_schema__.children.medic.onOptionChange"
+    },
+    {
+      "key": "schema.__root_schema__.children.data.onDateSelected"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    },
+    {
+      "key": "schema.__root_schema__.children.pacient.onOptionChange"
+    },
+    {
+      "key": "schema.__root_schema__.children.medic.onOptionChange"
+    },
+    {
+      "key": "schema.__root_schema__.children.data.onDateSelected"
+    }
+  ],
+  "fieldLimitExceeded": false,
+  "fixedFooter": true,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.6bacf7df.svg",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "h9l9ozr8op",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 21,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onSubmit": "{{adaugaProgramareReceptioner.adaugaProgramareReceptioner();}}",
+  "originalBottomRow": 66,
+  "originalTopRow": 10,
+  "parentColumnSpace": 16.3125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetButtonLabel": "Reset",
+  "resetButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "#1e3a8a",
+    "buttonVariant": "SECONDARY"
+  },
+  "rightColumn": 42,
+  "schema": {
+    "__root_schema__": {
+      "accessor": "__root_schema__",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none",
+      "children": {
+        "data": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Form_Add_Programare.sourceData, Form_Add_Programare.formData, Form_Add_Programare.fieldState)}}",
+          "accessor": "data",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Form_Add_Programare.sourceData, Form_Add_Programare.formData, Form_Add_Programare.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "closeOnSelection": true,
+          "convertToISO": false,
+          "dataType": "string",
+          "dateFormat": "YYYY-MM-DD",
+          "defaultValue": "",
+          "fieldType": "Datepicker",
+          "identifier": "data",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": "{{((sourceData, formData, fieldState) => ( (() => {\n  const value = sourceData.data;\n  if (!value) return false;\n\n  const regex = /^([0-2][0-9])\\/(0[1-9]|1[0-2])\\/\\d{4} (0[8-9]|1[0-9]|20):(00|30)$/;\n  return regex.test(value);\n})() ))(Form_Add_Programare.sourceData, Form_Add_Programare.formData, Form_Add_Programare.fieldState)}}",
+          "isVisible": true,
+          "label": "Data",
+          "labelTextSize": "0.875rem",
+          "maxDate": "",
+          "minDate": "{{((sourceData, formData, fieldState) => ( moment().format(\"YYYY-MM-DD\")  + `/`))(Form_Add_Programare.sourceData, Form_Add_Programare.formData, Form_Add_Programare.fieldState)}}",
+          "onDateSelected": "{{query_ore_ocupate_receptioner.run();\n}}",
+          "originalIdentifier": "data",
+          "position": 3,
+          "shortcuts": false,
+          "sourceData": "2025-04-09",
+          "timePrecision": "None"
+        },
+        "medic": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Form_Add_Programare.sourceData, Form_Add_Programare.formData, Form_Add_Programare.fieldState)}}",
+          "accessor": "medic",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Form_Add_Programare.sourceData, Form_Add_Programare.formData, Form_Add_Programare.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "",
+          "fieldType": "Select",
+          "identifier": "medic",
+          "isCustomField": false,
+          "isDisabled": "{{((sourceData, formData, fieldState) => ( !Form_Add_Programare.formData.specializare ))(Form_Add_Programare.sourceData, Form_Add_Programare.formData, Form_Add_Programare.fieldState)}}",
+          "isFilterable": false,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "Medic",
+          "labelTextSize": "0.875rem",
+          "onOptionChange": "{{query_ore_ocupate_receptioner.run();\n}}",
+          "options": "{{ query_medici_dupa_specializare.data.map(m => ({ label: m.nume_medic, value: m.id })) }}\n",
+          "originalIdentifier": "medic",
+          "position": 2,
+          "serverSideFiltering": false,
+          "sourceData": "Irina Constantin"
+        },
+        "ora": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Form_Add_Programare.sourceData, Form_Add_Programare.formData, Form_Add_Programare.fieldState)}}",
+          "accessor": "ora",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Form_Add_Programare.sourceData, Form_Add_Programare.formData, Form_Add_Programare.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "",
+          "fieldType": "Select",
+          "identifier": "ora",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "Ora",
+          "labelTextSize": "0.875rem",
+          "options": "{{\n  [\n    \"08:00\", \"08:30\", \"09:00\", \"09:30\", \"10:00\", \"10:30\",\n    \"11:00\", \"11:30\", \"12:00\", \"12:30\", \"13:00\", \"13:30\",\n    \"14:00\", \"14:30\", \"15:00\", \"15:30\", \"16:00\", \"16:30\",\n    \"17:00\", \"17:30\", \"18:00\"\n  ]\n  .filter(ora => !query_ore_ocupate_receptioner.data.map(r => r.ora).includes(ora))\n  .map(ora => ({ label: ora, value: ora }))\n}}\n",
+          "originalIdentifier": "ora",
+          "position": 4,
+          "serverSideFiltering": false,
+          "sourceData": "11:15:00"
+        },
+        "pacient": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Form_Add_Programare.sourceData, Form_Add_Programare.formData, Form_Add_Programare.fieldState)}}",
+          "accessor": "specializare",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Form_Add_Programare.sourceData, Form_Add_Programare.formData, Form_Add_Programare.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "",
+          "fieldType": "Select",
+          "identifier": "pacient",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "Specializare",
+          "labelTextSize": "0.875rem",
+          "onOptionChange": "{{ query_medici_dupa_specializare.run() }}\n",
+          "options": "{{ query_specializari.data.map(s => ({ label: s.denumire, value: s.id })) }}\n",
+          "originalIdentifier": "pacient",
+          "position": 1,
+          "serverSideFiltering": false,
+          "sourceData": "Maria Ionescu"
+        },
+        "status": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Form_Add_Programare.sourceData, Form_Add_Programare.formData, Form_Add_Programare.fieldState)}}",
+          "accessor": "pacient",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Form_Add_Programare.sourceData, Form_Add_Programare.formData, Form_Add_Programare.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "",
+          "fieldType": "Select",
+          "identifier": "status",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isFilterable": false,
+          "isRequired": true,
+          "isVisible": true,
+          "label": "Pacient",
+          "labelTextSize": "0.875rem",
+          "options": "{{ query_pacienti.data.map(p => ({ label: p.label, value: p.id })) }}\n",
+          "originalIdentifier": "status",
+          "position": 0,
+          "serverSideFiltering": false,
+          "sourceData": "confirmata"
+        }
+      },
+      "dataType": "object",
+      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(Form_Add_Programare.sourceData, Form_Add_Programare.formData, Form_Add_Programare.fieldState)}}",
+      "fieldType": "Object",
+      "identifier": "__root_schema__",
+      "isCustomField": false,
+      "isDisabled": false,
+      "isRequired": false,
+      "isVisible": true,
+      "label": "",
+      "labelTextSize": "0.875rem",
+      "originalIdentifier": "__root_schema__",
+      "position": -1,
+      "sourceData": {
+        "col1": 5,
+        "col2": "skill B",
+        "col3": 9,
+        "col4": true
+      }
+    }
+  },
+  "scrollContents": true,
+  "shouldScrollContents": true,
+  "showReset": true,
+  "sourceData": "",
+  "submitButtonLabel": "Adauga",
+  "submitButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "#1e3a8a",
+    "buttonVariant": "PRIMARY"
+  },
+  "title": "Adauga programare",
+  "topRow": 10,
+  "type": "JSON_FORM_WIDGET",
+  "version": 1,
+  "widgetId": "opks3t5t3t",
+  "widgetName": "Form_Add_Programare"
+}

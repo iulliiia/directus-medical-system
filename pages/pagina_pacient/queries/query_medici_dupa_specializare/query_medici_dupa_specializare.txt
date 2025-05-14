@@ -1,0 +1,8 @@
+SELECT u.id, u.first_name || ' ' || u.last_name AS nume_medic
+FROM users u
+JOIN medic_specializare ms ON u.id = ms.medic_id
+WHERE u.role = 'medic'
+  AND (
+    {{ Form_Add_Programare.formData.specializare }}
+    IS NOT NULL AND ms.specializare_id = {{ Form_Add_Programare.formData.specializare }}
+  );

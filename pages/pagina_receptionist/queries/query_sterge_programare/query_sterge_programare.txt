@@ -1,0 +1,2 @@
+DELETE FROM programare
+WHERE id = {{ tabel_programari_receptioner.selectedRow.id }};

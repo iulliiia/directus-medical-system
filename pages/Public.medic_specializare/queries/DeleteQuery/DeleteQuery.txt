@@ -1,0 +1,1 @@
+DROP TABLE medic_specializare CASCADE;

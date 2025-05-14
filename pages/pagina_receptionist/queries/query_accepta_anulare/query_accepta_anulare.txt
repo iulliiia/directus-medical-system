@@ -1,0 +1,9 @@
+-- marchează cererea ca acceptată
+UPDATE cerere_anulare
+SET status = 'acceptata'
+WHERE id = {{ tabel_cereri_anulare.selectedRow.id }};
+
+-- marchează programarea ca anulată
+UPDATE programare
+SET status = 'anulata'
+WHERE id = {{ tabel_cereri_anulare.selectedRow.programare_id }};

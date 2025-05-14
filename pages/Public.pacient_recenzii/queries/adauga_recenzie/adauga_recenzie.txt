@@ -1,0 +1,7 @@
+INSERT INTO recenzie_medic (pacient_id, medic_id, nota)
+SELECT {{ appsmith.user.id }}, {{ DropdownMedic.selectedOptionValue }}, {{ InputNota.text }}
+WHERE EXISTS (
+  SELECT 1 FROM programare
+  WHERE pacient_id = {{ appsmith.user.id }}
+    AND medic_id = {{ DropdownMedic.selectedOptionValue }}
+);

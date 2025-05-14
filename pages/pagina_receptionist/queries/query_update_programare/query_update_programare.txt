@@ -1,0 +1,7 @@
+
+UPDATE programare
+SET 
+  data = '{{ moment(Date_Editare.selectedDate).format("YYYY-MM-DD") }}',
+  ora = '{{ Ora_Editare.selectedOptionValue }}',
+  status = '{{ Status_Editare.selectedOptionValue }}'
+WHERE id = {{ tabel_programari_receptioner.selectedRow.id }};

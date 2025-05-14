@@ -1,0 +1,14 @@
+INSERT INTO fisa_medicala (
+  programare_id,
+  istoric,
+  simptome,
+  diagnostic,
+  recomandari
+)
+VALUES (
+  {{ tabel_programari_medic.selectedRow.id }},
+  '{{ textarea_istoric.text }}',
+  '{{ textarea_recomandari.text }}',
+  '{{ textarea_diagnostic.text }}',
+  '{{ textarea_recomandari.text }}'
+);

@@ -1,0 +1,3 @@
+UPDATE cerere_anulare
+SET status = 'respinsa'
+WHERE id = {{ tabel_cereri_anulare.selectedRow.id }};

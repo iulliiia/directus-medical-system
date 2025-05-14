@@ -1,0 +1,12 @@
+CREATE OR REPLACE VIEW medic_rating_view AS
+SELECT 
+    u.id AS medic_id,
+    u.first_name,
+    u.last_name,
+    u.email,
+    u.university,
+    ROUND(AVG(rm.nota), 2) AS rating
+FROM users u
+LEFT JOIN recenzie_medic rm ON u.id = rm.medic_id
+WHERE u.role = 'medic'
+GROUP BY u.id, u.first_name, u.last_name, u.email, u.university;

@@ -1,0 +1,14 @@
+SELECT DISTINCT ON (p.id)
+  p.id,
+  s.denumire AS specializare,
+  p.data,
+  p.ora,
+  p.status,
+  u_pacient.first_name || ' ' || u_pacient.last_name AS pacient,
+  u_medic.first_name || ' ' || u_medic.last_name AS medic
+FROM programare p
+JOIN users u_pacient ON u_pacient.id = p.pacient_id
+JOIN users u_medic ON u_medic.id = p.medic_id
+JOIN medic_specializare ms ON ms.medic_id = u_medic.id
+JOIN specializare s ON s.id = ms.specializare_id
+ORDER BY p.id, s.id;

@@ -1,0 +1,3 @@
+UPDATE public."specializare" SET
+		"denumire" = '{{update_form.fieldState.denumire.isVisible ? update_form.formData.denumire : update_form.sourceData.denumire}}'
+WHERE "id_specializare" = {{data_table.selectedRow.id_specializare}};

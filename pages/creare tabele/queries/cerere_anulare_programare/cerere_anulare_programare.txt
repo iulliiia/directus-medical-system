@@ -1,0 +1,10 @@
+CREATE TABLE cerere_anulare (
+  id SERIAL PRIMARY KEY,
+  programare_id INT NOT NULL,
+  cerut_de INT NOT NULL, -- user_id al pacientului sau medicului
+  motiv TEXT,
+  data_cerere TIMESTAMP DEFAULT NOW(),
+  status VARCHAR(20) DEFAULT 'neprocesata',
+  FOREIGN KEY (programare_id) REFERENCES programare(id) ON DELETE CASCADE,
+  FOREIGN KEY (cerut_de) REFERENCES users(id) ON DELETE CASCADE
+);

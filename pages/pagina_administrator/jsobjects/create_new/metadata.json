@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67e39fa4353a9a52f83d02a7_5841d8a3-bf70-4a55-bbbf-991c410eb203",
+  "id": "pagina_administrator_create_new",
+  "unpublishedCollection": {
+    "name": "create_new",
+    "pageId": "pagina_administrator",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

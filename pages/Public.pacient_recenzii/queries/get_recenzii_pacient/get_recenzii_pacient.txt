@@ -1,0 +1,9 @@
+SELECT 
+  rm.id_recenzie,
+  u.first_name AS medic_first_name,
+  u.last_name AS medic_last_name,
+  rm.nota,
+  rm.data_recenzie
+FROM recenzie_medic rm
+JOIN users u ON u.id = rm.medic_id
+WHERE rm.pacient_id = {{ appsmith.user.id }};

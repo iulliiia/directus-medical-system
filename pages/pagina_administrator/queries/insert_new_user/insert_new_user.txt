@@ -1,0 +1,24 @@
+INSERT INTO users (
+  username,
+  email,
+  password,
+  role,
+  first_name,
+  last_name,
+  birth_date,
+  phone_number,
+  university,
+  review
+)
+VALUES (
+  {{ Create_New_User.formData.username }},
+  {{ Create_New_User.formData.email }},
+  {{ Create_New_User.formData.password }},
+  {{ Create_New_User.formData.role }},
+  INITCAP({{ Create_New_User.formData.first_name }}),
+  INITCAP({{ Create_New_User.formData.last_name }}),
+ 	{{ Create_New_User.formData.birth_date || null }},
+	{{ Create_New_User.formData.phone_number || null }},
+  {{ Create_New_User.formData.university || null }},
+  {{ Create_New_User.formData.review || null }}
+);

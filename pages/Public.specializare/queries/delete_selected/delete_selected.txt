@@ -1,0 +1,2 @@
+DELETE FROM specializare
+WHERE id = {{appsmith.store.rowToDelete.id}};

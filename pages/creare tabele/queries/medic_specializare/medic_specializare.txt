@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS medic_specializare CASCADE;
+
+CREATE TABLE medic_specializare (
+  medic_id INT NOT NULL,
+  specializare_id INT NOT NULL,
+  PRIMARY KEY (medic_id, specializare_id),
+  FOREIGN KEY (medic_id) REFERENCES users(id) ON DELETE CASCADE,
+  FOREIGN KEY (specializare_id) REFERENCES specializare(id) ON DELETE CASCADE
+);

@@ -1,0 +1,5 @@
+INSERT INTO specializare (denumire)
+SELECT '{{insert_form_specializare.formData.denumire}}'
+WHERE NOT EXISTS (
+    SELECT 1 FROM specializare WHERE LOWER(denumire) = LOWER('{{insert_form_specializare.formData.denumire}}')
+);

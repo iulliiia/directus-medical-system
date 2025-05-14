@@ -1,0 +1,8 @@
+SELECT p.*, 
+       m.first_name || ' ' || m.last_name AS medic_nume
+FROM programare p
+JOIN users m ON p.medic_id = m.id
+WHERE p.pacient_id = (
+  SELECT id FROM users WHERE email = '{{ appsmith.store.user_email }}'
+)
+ORDER BY p.data ASC;

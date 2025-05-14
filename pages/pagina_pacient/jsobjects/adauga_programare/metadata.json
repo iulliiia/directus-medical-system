@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67e39fa4353a9a52f83d02a7_2f4638a2-139f-466d-b3f7-5d4716db58ef",
+  "id": "pagina_pacient_adauga_programare",
+  "unpublishedCollection": {
+    "name": "adauga_programare",
+    "pageId": "pagina_pacient",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -1,0 +1,12 @@
+INSERT INTO programare (
+  pacient_id,
+  medic_id,
+  data,
+  status
+)
+VALUES (
+  {{ Adauga_programare.formData.pacient_id }},
+  {{ Adauga_programare.formData.medic_id }},
+  {{ Adauga_programare.formData.data }},
+  {{ Adauga_programare.formData.status }}
+);

@@ -1,0 +1,8 @@
+SELECT fm.*, 
+       u.first_name || ' ' || u.last_name AS medic
+FROM fisa_medicala fm
+JOIN programare p ON fm.programare_id = p.id
+JOIN users u ON p.medic_id = u.id
+WHERE p.pacient_id = (
+  SELECT id FROM users WHERE email = '{{ appsmith.store.user_email }}'
+);

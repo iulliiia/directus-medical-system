@@ -1,0 +1,4 @@
+UPDATE users
+SET email = '{{ Form_Update_Contact.formData.email }}',
+    phone_number = '{{ Form_Update_Contact.formData.phone_number }}'
+WHERE email = '{{ appsmith.store.user_email }}';

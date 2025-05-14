@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67e39fa4353a9a52f83d02a7_f5855156-48d2-43db-abc0-43dca2c75257",
+  "id": "signin_callbacks",
+  "unpublishedCollection": {
+    "name": "callbacks",
+    "pageId": "signin",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

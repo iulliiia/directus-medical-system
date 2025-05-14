@@ -1,0 +1,13 @@
+UPDATE users
+SET
+  username = '{{ Form_Update_Contact.formData.username }}',
+  first_name = '{{  Form_Update_Contact.formData.first_name }}',
+  last_name = '{{  Form_Update_Contact.formData.last_name }}',
+  email = '{{  Form_Update_Contact.formData.email }}',
+  birth_date = '{{  Form_Update_Contact.formData.birth_date || null }}',
+  phone_number = '{{  Form_Update_Contact.formData.phone_number || null }}',
+  university = '{{  Form_Update_Contact.formData.university || null }}',
+  review = {{  Form_Update_Contact.formData.review || null }}
+WHERE id = {{
+  (tabel_utilizatori.selectedRow?.id)
+}};

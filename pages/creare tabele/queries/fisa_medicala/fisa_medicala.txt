@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS fisa_medicala CASCADE;
+CREATE TABLE fisa_medicala (
+  id SERIAL PRIMARY KEY,
+  programare_id INT UNIQUE NOT NULL,
+  istoric TEXT,
+  simptome TEXT,
+  diagnostic TEXT,
+  recomandari TEXT,
+  FOREIGN KEY (programare_id) REFERENCES programare(id) ON DELETE CASCADE
+);

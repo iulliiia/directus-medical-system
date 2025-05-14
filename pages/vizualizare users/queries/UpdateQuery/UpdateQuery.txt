@@ -1,0 +1,3 @@
+UPDATE users
+SET last_name = 'Caprariu', first_name = 'Iulia'
+WHERE username = 'iulia';

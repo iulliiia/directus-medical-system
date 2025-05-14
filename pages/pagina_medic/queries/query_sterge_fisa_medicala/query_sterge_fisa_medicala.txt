@@ -1,0 +1,2 @@
+DELETE FROM fisa_medicala
+WHERE id = {{ tabel_fise_medic.selectedRow.id }};

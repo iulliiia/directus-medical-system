@@ -1,0 +1,10 @@
+SELECT 
+  p.id AS id_programare,
+  pu.first_name || ' ' || pu.last_name AS pacient,
+  mu.first_name || ' ' || mu.last_name AS medic,
+  p.data,
+  p.status
+FROM programare p
+JOIN users pu ON pu.id = p.pacient_id
+JOIN users mu ON mu.id = p.medic_id
+ORDER BY p.data;

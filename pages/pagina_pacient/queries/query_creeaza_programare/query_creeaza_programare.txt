@@ -1,0 +1,14 @@
+INSERT INTO programare (
+  pacient_id,
+  medic_id,
+  data,
+  ora,
+  status
+)
+VALUES (
+  (SELECT id FROM users WHERE email = '{{ appsmith.store.user_email }}'),
+  {{ Form_Add_Programare.formData.medic }},
+  '{{ Form_Add_Programare.formData.data }}',
+  '{{ Form_Add_Programare.formData.ora }}',
+  'in asteptare'
+);

@@ -1,0 +1,16 @@
+SELECT ca.id,
+       ca.programare_id,
+       ca.motiv,
+       ca.status,
+       ca.data_cerere,
+       u_cerere.first_name || ' ' || u_cerere.last_name AS cerut_de_nume,
+       p.data,
+       p.ora,
+       p.status AS status_programare,
+       u_medic.first_name || ' ' || u_medic.last_name AS nume_medic,
+       u_pacient.first_name || ' ' || u_pacient.last_name AS nume_pacient
+FROM cerere_anulare ca
+JOIN users u_cerere ON u_cerere.id = ca.cerut_de
+JOIN programare p ON p.id = ca.programare_id
+JOIN users u_medic ON u_medic.id = p.medic_id
+JOIN users u_pacient ON u_pacient.id = p.pacient_id;

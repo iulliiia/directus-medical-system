@@ -1,0 +1,10 @@
+INSERT INTO cerere_anulare (
+  programare_id,
+  cerut_de,
+  motiv
+)
+VALUES (
+  {{ tabel_programari_pacient.selectedRow.id }},
+  (SELECT id FROM users WHERE email = '{{ appsmith.store.user_email }}'),
+  '{{ input_motiv.text || "" }}'
+);

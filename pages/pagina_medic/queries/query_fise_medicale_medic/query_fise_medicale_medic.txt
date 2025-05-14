@@ -1,0 +1,15 @@
+SELECT 
+  f.id,
+  f.programare_id,
+  f.istoric,
+  f.simptome,
+  f.diagnostic,
+  f.recomandari,
+  p.data,
+  p.ora,
+  u_pacient.first_name || ' ' || u_pacient.last_name AS pacient
+FROM fisa_medicala f
+JOIN programare p ON p.id = f.programare_id
+JOIN users u_pacient ON u_pacient.id = p.pacient_id
+WHERE p.medic_id = (SELECT id FROM users WHERE email = '{{ appsmith.store.user_email }}')
+ORDER BY p.data DESC;

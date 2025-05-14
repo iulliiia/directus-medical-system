@@ -1,0 +1,3 @@
+UPDATE programare
+SET status = 'anulata'
+WHERE id = {{ tabel_programari_receptioner.selectedRow.id }};

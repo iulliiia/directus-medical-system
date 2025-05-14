@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS recenzie_medic CASCADE;
+
+CREATE TABLE recenzie_medic (
+    id_recenzie SERIAL PRIMARY KEY,
+    pacient_id INT NOT NULL,
+    medic_id INT NOT NULL,
+    nota INT NOT NULL CHECK (nota BETWEEN 1 AND 5),
+    data_recenzie TIMESTAMP DEFAULT NOW(),
+    UNIQUE (pacient_id, medic_id),
+    FOREIGN KEY (pacient_id) REFERENCES users(id) ON DELETE CASCADE,
+    FOREIGN KEY (medic_id) REFERENCES users(id) ON DELETE CASCADE
+);

@@ -1,0 +1,6 @@
+SELECT 
+  u.first_name, u.last_name, s.denumire AS specializare
+FROM medic_specializare ms
+JOIN users u ON u.id = ms.medic_id
+JOIN specializare s ON s.id = ms.specializare_id
+ORDER BY u.last_name, s.denumire;

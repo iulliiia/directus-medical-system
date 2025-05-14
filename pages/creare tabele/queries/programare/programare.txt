@@ -1,0 +1,11 @@
+CREATE TYPE status_programare AS ENUM ('in asteptare', 'confirmata', 'anulata');
+
+CREATE TABLE programare (
+  id SERIAL PRIMARY KEY,
+  pacient_id INT DEFAULT NULL,
+  medic_id INT DEFAULT NULL,
+  data DATE DEFAULT NULL,
+  status status_programare DEFAULT 'in asteptare',
+  FOREIGN KEY (pacient_id) REFERENCES users(id) ON DELETE CASCADE,
+  FOREIGN KEY (medic_id) REFERENCES users(id) ON DELETE CASCADE
+);

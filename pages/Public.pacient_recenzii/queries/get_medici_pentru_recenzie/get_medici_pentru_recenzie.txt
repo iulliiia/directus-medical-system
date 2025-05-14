@@ -1,0 +1,5 @@
+SELECT DISTINCT u.id, u.first_name || ' ' || u.last_name AS nume_complet
+FROM users u
+JOIN programare p ON p.medic_id = u.id
+WHERE u.role = 'medic'
+  AND p.pacient_id = {{ appsmith.user.id }};

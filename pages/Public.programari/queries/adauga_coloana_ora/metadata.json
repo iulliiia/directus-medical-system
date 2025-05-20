@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "adauga_coloana_ora",
     "pageId": "Public.programari",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "query_login_user",
     "pageId": "login",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

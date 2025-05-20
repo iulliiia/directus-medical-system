@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "fisa_medicala",
     "pageId": "creare tabele",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

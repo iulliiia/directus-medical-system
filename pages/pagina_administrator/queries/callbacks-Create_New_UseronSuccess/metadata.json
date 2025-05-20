@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "callbacks.Create_New_UseronSuccess",
     "name": "Create_New_UseronSuccess",
     "pageId": "pagina_administrator",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -22,9 +22,9 @@
       "name": "clinica_medicala",
       "pluginId": "postgres-plugin"
     },
-    "executeOnLoad": false,
     "name": "DeleteQuery",
     "pageId": "Public.fisa_medicala",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

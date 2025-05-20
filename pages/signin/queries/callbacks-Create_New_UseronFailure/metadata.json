@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "callbacks.Create_New_UseronFailure",
     "name": "Create_New_UseronFailure",
     "pageId": "signin",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

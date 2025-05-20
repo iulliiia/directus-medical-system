@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "query_trimite_cerere_anulare",
     "pageId": "pagina_pacient",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

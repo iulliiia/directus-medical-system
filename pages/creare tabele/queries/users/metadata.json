@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "users",
     "pageId": "creare tabele",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

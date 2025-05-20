@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "programare.SourceData",
     "name": "SourceData",
     "pageId": "Public.programari",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "cerere_anulare_programare",
     "pageId": "creare tabele",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

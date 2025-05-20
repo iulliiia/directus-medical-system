@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "InsertQuery",
     "pageId": "Public.fisa_medicala",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

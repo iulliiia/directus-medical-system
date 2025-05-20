@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "query_creeaza_programare",
     "pageId": "pagina_pacient",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

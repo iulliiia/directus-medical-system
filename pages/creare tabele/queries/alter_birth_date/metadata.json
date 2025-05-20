@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "alter_birth_date",
     "pageId": "creare tabele",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

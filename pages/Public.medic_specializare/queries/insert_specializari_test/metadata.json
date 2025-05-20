@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "insert_specializari_test",
     "pageId": "Public.medic_specializare",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

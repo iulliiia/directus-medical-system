@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "alter_data_si_ora_programare",
     "pageId": "creare tabele",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "insert_new",
     "pageId": "Public.specializare",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "DeleteQuery",
     "pageId": "vizualizare users",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

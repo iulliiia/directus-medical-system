@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "adauga_programare.adaugaProgramare",
     "name": "adaugaProgramare",
     "pageId": "pagina_pacient",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

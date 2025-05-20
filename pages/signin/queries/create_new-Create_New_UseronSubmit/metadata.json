@@ -23,10 +23,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "create_new.Create_New_UseronSubmit",
     "name": "Create_New_UseronSubmit",
     "pageId": "signin",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

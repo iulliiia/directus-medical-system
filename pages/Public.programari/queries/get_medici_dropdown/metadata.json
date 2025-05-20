@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "get_medici_dropdown",
     "pageId": "Public.programari",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

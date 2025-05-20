@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "inserare_20_useri",
     "pageId": "signin",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "query_cereri_anulare",
     "pageId": "pagina_receptionist",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": true
   }
 }

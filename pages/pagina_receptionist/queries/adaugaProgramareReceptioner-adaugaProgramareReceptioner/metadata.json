@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "adaugaProgramareReceptioner.adaugaProgramareReceptioner",
     "name": "adaugaProgramareReceptioner",
     "pageId": "pagina_receptionist",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "insert_new_user",
     "pageId": "pagina_administrator",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

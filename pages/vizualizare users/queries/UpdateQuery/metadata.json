@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "UpdateQuery",
     "pageId": "vizualizare users",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

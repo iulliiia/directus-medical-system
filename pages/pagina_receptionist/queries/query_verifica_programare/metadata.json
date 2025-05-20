@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "query_verifica_programare",
     "pageId": "pagina_receptionist",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

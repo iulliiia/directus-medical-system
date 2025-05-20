@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "select_all",
     "pageId": "Public.programari",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

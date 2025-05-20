@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "query_accepta_anulare",
     "pageId": "pagina_receptionist",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

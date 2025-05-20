@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "printeaza_fisa.printeazaFisa",
     "name": "printeazaFisa",
     "pageId": "pagina_medic",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

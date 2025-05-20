@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "query_insert_fisa_medicala",
     "pageId": "pagina_medic",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

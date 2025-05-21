@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT ora \nFROM programare\nWHERE medic_id = {{ Form_Add_Programare.formData.medic }}\n  AND data = '{{ Form_Add_Programare.formData.data }}';\n",
+      "body": "SELECT ora \nFROM programare\nWHERE medic_id = {{ Form_Add_Programare.formData.medic }}\n  AND data = '{{ Form_Add_Programare.formData.data }}';",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

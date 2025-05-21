@@ -40,7 +40,7 @@
     "customColumn2",
     "customColumn1"
   ],
-  "columnUpdatedAt": 1747149453281,
+  "columnUpdatedAt": 1747234134293,
   "columnWidthMap": {
     "customColumn1": 293,
     "customColumn2": 235,
@@ -395,7 +395,7 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 62,
+  "rightColumn": 63,
   "searchKey": "",
   "tableData": "{{query_programari_medic.data}}",
   "textSize": "0.875rem",

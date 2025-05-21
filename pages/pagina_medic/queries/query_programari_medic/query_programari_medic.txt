@@ -8,6 +8,6 @@ FROM programare p
 JOIN users u_pacient ON u_pacient.id = p.pacient_id
 WHERE 
   p.medic_id = (SELECT id FROM users WHERE email = '{{ appsmith.store.user_email }}')
-  AND p.status = 'in asteptare'
+  AND (p.status = 'in asteptare' OR p.status = 'confirmata')
 ORDER BY p.data DESC, p.ora DESC;
 -- arata doar programarile care sunt in status 'in asteptare'

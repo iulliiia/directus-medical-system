@@ -5,7 +5,7 @@
   "borderColor": "#fff",
   "borderRadius": "1.5rem",
   "borderWidth": "0",
-  "bottomRow": 63,
+  "bottomRow": 75,
   "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
   "childStylesheet": {
     "ARRAY": {
@@ -205,8 +205,8 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "onSubmit": "{{insert_new_user.run().then(() => {\n  callbacks.Create_New_UseronSuccess();\n}).catch(() => {\n  callbacks.Create_New_UseronFailure();\n});}}",
-  "originalBottomRow": 63,
-  "originalTopRow": 0,
+  "originalBottomRow": 78,
+  "originalTopRow": 15,
   "parentColumnSpace": 16.3125,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -488,7 +488,7 @@
     "buttonVariant": "PRIMARY"
   },
   "title": "Create an Account",
-  "topRow": 0,
+  "topRow": 12,
   "type": "JSON_FORM_WIDGET",
   "useSourceData": "",
   "version": 1,

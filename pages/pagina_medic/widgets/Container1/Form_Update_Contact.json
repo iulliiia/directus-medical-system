@@ -5,7 +5,7 @@
   "borderColor": "#fff",
   "borderRadius": "1.5rem",
   "borderWidth": "0",
-  "bottomRow": 85,
+  "bottomRow": 79,
   "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
   "childStylesheet": {
     "ARRAY": {
@@ -444,7 +444,7 @@
     "placement": "CENTER"
   },
   "title": "Update your contact data",
-  "topRow": 15,
+  "topRow": 9,
   "type": "JSON_FORM_WIDGET",
   "useSourceData": "",
   "version": 1,

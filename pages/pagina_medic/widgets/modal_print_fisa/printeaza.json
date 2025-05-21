@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 44,
+  "bottomRow": 60,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonStyle": "PRIMARY_BUTTON",
@@ -15,11 +15,7 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -37,9 +33,9 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{ printeaza_fisa.printeazaFisa()}}\n",
-  "originalBottomRow": 44,
-  "originalTopRow": 40,
+  "onClick": "{{printeaza_fisa.printeazaFisa();\ncloseModal(modal_print_fisa.name);}}",
+  "originalBottomRow": 52,
+  "originalTopRow": 48,
   "parentId": "sg1nmg9upr",
   "placement": "CENTER",
   "recaptchaType": "V3",
@@ -48,7 +44,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 63,
   "text": "Printeaza",
-  "topRow": 40,
+  "topRow": 56,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "jzf0yo6mhw",

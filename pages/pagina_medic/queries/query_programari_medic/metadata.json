@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT \n  p.id,\n  p.data,\n  p.ora,\n  p.status,\n  u_pacient.first_name || ' ' || u_pacient.last_name AS pacient\nFROM programare p\nJOIN users u_pacient ON u_pacient.id = p.pacient_id\nWHERE \n  p.medic_id = (SELECT id FROM users WHERE email = '{{ appsmith.store.user_email }}')\n  AND p.status = 'in asteptare'\nORDER BY p.data DESC, p.ora DESC;\n-- arata doar programarile care sunt in status 'in asteptare'",
+      "body": "SELECT \n  p.id,\n  p.data,\n  p.ora,\n  p.status,\n  u_pacient.first_name || ' ' || u_pacient.last_name AS pacient\nFROM programare p\nJOIN users u_pacient ON u_pacient.id = p.pacient_id\nWHERE \n  p.medic_id = (SELECT id FROM users WHERE email = '{{ appsmith.store.user_email }}')\n  AND (p.status = 'in asteptare' OR p.status = 'confirmata')\nORDER BY p.data DESC, p.ora DESC;\n-- arata doar programarile care sunt in status 'in asteptare'",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

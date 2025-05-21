@@ -5,7 +5,7 @@
   "borderColor": "#fff",
   "borderRadius": "1.5rem",
   "borderWidth": "0",
-  "bottomRow": 77,
+  "bottomRow": 73,
   "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
   "childStylesheet": {
     "ARRAY": {
@@ -187,7 +187,7 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "onSubmit": "{{query_update_contact.run()}}",
-  "originalBottomRow": 77,
+  "originalBottomRow": 73,
   "originalTopRow": 10,
   "parentColumnSpace": 16.3125,
   "parentId": "wq5trrp1or",

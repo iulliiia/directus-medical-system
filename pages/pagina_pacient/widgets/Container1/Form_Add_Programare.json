@@ -5,7 +5,7 @@
   "borderColor": "#fff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "0",
-  "bottomRow": 61,
+  "bottomRow": 60,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
     "ARRAY": {
@@ -216,8 +216,8 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "onSubmit": "{{adauga_programare.adaugaProgramare();}}",
-  "originalBottomRow": 160,
-  "originalTopRow": 62,
+  "originalBottomRow": 60,
+  "originalTopRow": 12,
   "parentColumnSpace": 16.3125,
   "parentId": "wq5trrp1or",
   "parentRowSpace": 10,

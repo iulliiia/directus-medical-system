@@ -34,7 +34,7 @@
   "needsErrorInfo": false,
   "onClick": "{{query_trimite_cerere_medic.run().then(() => {\n  showAlert('Cererea a fost trimisa cu succes!', 'success');\n  query_programari_medic.run();\n  closeModal(modal_anulare_medic.name);\n}).catch(() => {\n  showAlert('A aparut o eroare!', 'error');\n});}}",
   "originalBottomRow": 26,
-  "originalTopRow": 22,
+  "originalTopRow": 21,
   "parentId": "jc51rozyg0",
   "placement": "CENTER",
   "recaptchaType": "V3",

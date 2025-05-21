@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "67e39fa4353a9a52f83d02a7_fd48cb1a-272e-4e62-9360-c08955433e6a",
-  "id": "creare tabele_alter_data_si_ora_programare",
+  "gitSyncId": "67e39fa4353a9a52f83d02a7_9359e9b0-f39c-4caa-913b-066dfee7bec1",
+  "id": "creare tabele_Query2",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "\nALTER TABLE programare\nALTER COLUMN data TYPE TEXT;\n",
+      "body": "SELECT column_name, data_type\nFROM information_schema.columns\nWHERE table_name = 'programare';\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -23,7 +23,7 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "name": "alter_data_si_ora_programare",
+    "name": "Query2",
     "pageId": "creare tabele",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

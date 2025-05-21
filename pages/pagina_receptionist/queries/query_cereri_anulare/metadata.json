@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT ca.id,\n       ca.programare_id,\n       ca.motiv,\n       ca.status,\n       ca.data_cerere,\n       u_cerere.first_name || ' ' || u_cerere.last_name AS cerut_de_nume,\n       p.data,\n       p.ora,\n       p.status AS status_programare,\n       u_medic.first_name || ' ' || u_medic.last_name AS nume_medic,\n       u_pacient.first_name || ' ' || u_pacient.last_name AS nume_pacient\nFROM cerere_anulare ca\nJOIN users u_cerere ON u_cerere.id = ca.cerut_de\nJOIN programare p ON p.id = ca.programare_id\nJOIN users u_medic ON u_medic.id = p.medic_id\nJOIN users u_pacient ON u_pacient.id = p.pacient_id;\n",
+      "body": "SELECT ca.id,\n       ca.programare_id,\n       ca.motiv,\n       ca.status,\n       ca.data_cerere,\n       u_cerere.first_name || ' ' || u_cerere.last_name AS cerut_de_nume,\n       p.data,\n       p.ora,\n       p.status AS status_programare,\n       u_medic.first_name || ' ' || u_medic.last_name AS nume_medic,\n       u_pacient.first_name || ' ' || u_pacient.last_name AS nume_pacient\nFROM cerere_anulare ca\nJOIN users u_cerere ON u_cerere.id = ca.cerut_de\nJOIN programare p ON p.id = ca.programare_id\nJOIN users u_medic ON u_medic.id = p.medic_id\nJOIN users u_pacient ON u_pacient.id = p.pacient_id\nWHERE ({{Dropdown_Status_Cerere.selectedOptionValue}} = '' OR ca.status = {{Dropdown_Status_Cerere.selectedOptionValue}});\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,7 +22,11 @@
       "name": "clinica_medicala",
       "pluginId": "postgres-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "name": "query_cereri_anulare",
     "pageId": "pagina_receptionist",
     "runBehaviour": "MANUAL",

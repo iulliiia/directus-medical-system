@@ -161,6 +161,9 @@
     },
     {
       "key": "schema.__root_schema__.children.ora.options"
+    },
+    {
+      "key": "schema.__root_schema__.children.ora.defaultValue"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -215,7 +218,7 @@
   "leftColumn": 33,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
-  "onSubmit": "{{adauga_programare.adaugaProgramare();}}",
+  "onSubmit": "{{adauga_programare.adaugaProgramare();\nquery_programari_pacient.run()}}",
   "originalBottomRow": 60,
   "originalTopRow": 12,
   "parentColumnSpace": 16.3125,
@@ -297,7 +300,7 @@
           "boxShadow": "none",
           "children": {},
           "dataType": "string",
-          "defaultValue": "",
+          "defaultValue": "{{((sourceData, formData, fieldState) => ( this.selectedOptionValue ))(Form_Add_Programare.sourceData, Form_Add_Programare.formData, Form_Add_Programare.fieldState)}}",
           "fieldType": "Select",
           "identifier": "ora",
           "isCustomField": false,

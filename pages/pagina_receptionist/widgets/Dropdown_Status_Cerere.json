@@ -1,0 +1,64 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 155,
+  "boxShadow": "none",
+  "defaultOptionValue": "\"\"",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "3s7rd6csfh",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Alege statusul cererii",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 20,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 155,
+  "mobileLeftColumn": 20,
+  "mobileRightColumn": 40,
+  "mobileTopRow": 148,
+  "needsErrorInfo": false,
+  "onOptionChange": "{{query_cereri_anulare.run()}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 26.0625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 40,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"label\": \"Toate\",\n    \"value\": \"\"\n  },\n  {\n    \"label\": \"Neprocesată\",\n    \"value\": \"neprocesata\"\n  },\n  {\n    \"label\": \"Aprobată\",\n    \"value\": \"acceptata\"\n  }\n]",
+  "topRow": 148,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "jlmbk376wp",
+  "widgetName": "Dropdown_Status_Cerere"
+}

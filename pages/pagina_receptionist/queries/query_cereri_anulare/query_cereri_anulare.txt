@@ -13,4 +13,5 @@ FROM cerere_anulare ca
 JOIN users u_cerere ON u_cerere.id = ca.cerut_de
 JOIN programare p ON p.id = ca.programare_id
 JOIN users u_medic ON u_medic.id = p.medic_id
-JOIN users u_pacient ON u_pacient.id = p.pacient_id;
+JOIN users u_pacient ON u_pacient.id = p.pacient_id
+WHERE ({{Dropdown_Status_Cerere.selectedOptionValue}} = '' OR ca.status = {{Dropdown_Status_Cerere.selectedOptionValue}});
